@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Personal Portfolio - Bootstrap 5</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+      <div class="container">
+        <a href="#" class="navbar-brand">Shelby Cochrane</a>
+
+        <!-- Hamburger Icon -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+          aria-controls="navmenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto text-center">
+            <li class="nav-item">
+              <a href="#home" class="nav-link me-4">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link me-4">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link me-4">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link me-4">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HOME -->
+    <section
+      class="home py-5 bg-dark text-light text-center"
+      id="home"
+    >
+      <div class="container">
+        <div class="row min-vh-100 align-items-center justify-content-center">
+          <!-- Text Column -->
+          <div class="col-md-6 mt-4 mt-md-0">
+            <div class="home-text">
+              <p class="text-muted fs-5 mb-2">Hello</p>
+              <h1 class="text-warning text-uppercase fs-1 fw-bold">
+                Web Developer & Designer
+              </h1>
+              <h2 class="fs-3 mb-4">Shelby Cochrane</h2>
+              <p class="mt-4 text-muted lead">
+                Welcome to my website! I showcase a variety of projects from front end to back end to design. 
+              </p>
+
+              <a
+                href="#portfolio"
+                class="btn btn-danger btn-lg px-4 mt-4 rounded-pill shadow-lg"
+                >My Portfolio</a
+              >
+            </div>
+          </div>
+
+          <!-- Profile Image Column
+          <div class="col-md-6 text-center mb-4 mb-md-0 d-none d-sm-block">
+            <img
+              src="img/profile.png"
+              class="rounded-circle img-fluid shadow-lg"
+              alt="profile img"
+              style="max-width: 250px"
+            />
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

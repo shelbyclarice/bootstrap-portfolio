@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/font-awesome.min.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-9f4r2Gx5VFV2eHztA2yo2S2V5EBoC9avzT2IcVgP2Rm3JNNmrw44RQ5Rhdo9T93z+H7NG+gntSCUAtLZ3p69Dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>
     <!-- NAVBAR-->
@@ -78,19 +85,6 @@
       </div>
     </section>
 
-    <!-- Profile Image Column
-          <div class="col-md-6 text-center mb-4 mb-md-0 d-none d-sm-block">
-            <img
-              src="img/profile.png"
-              class="rounded-circle img-fluid shadow-lg"
-              alt="profile img"
-              style="max-width: 250px"
-            />
-          </div>
-        </div>
-      </div>
-    </section> -->
-
     <!-- ABOUT ME -->
     <section class="p-5 bg-light">
       <div class="container">
@@ -103,33 +97,53 @@
               alt="profile image"
             />
           </div>
-          <div class="col-md p-5 text-center text-md-start">
-            <h2>About Me</h2>
-            <p class="lead">
-              Hi I am Shelby, a web developer based in South Florida where I
-              build and create engaging, responsive websites.
+          <div class="col-md text-center text-md-start">
+            <h2 class="mb-4">About Me</h2>
+            <p class="lead mb-4">
+              Hi there! I'm Shelby, a web developer and designer based in South
+              Florida.
+            </p>
+            <p class="mb-3">
+              I am a graphic designer with a Bachelor’s degree in Graphic Design
+              and a Certificate in Web Development. My expertise blends creative
+              design with technical web development, allowing me to create
+              visually engaging and user-friendly websites.
+            </p>
+            <p class="mb-3">
+              I use Adobe Creative Cloud to create assets that improve both the
+              look and function of websites. On the front end, I work with HTML,
+              CSS, Bootstrap, and JavaScript, while my back-end skills include
+              Python and PHP. I stay up-to-date on the latest coding and design
+              trends to keep my projects fresh and effective.
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              officia, nulla deleniti repudiandae magni quasi quod explicabo
-              nostrum iure asperiores rerum, eveniet quae debitis molestias nam.
-              Consequuntur at quisquam accusamus?
+              I’m passionate about creating digital experiences that blend
+              creativity with functionality. Currently, I am seeking
+              opportunities to apply my skills in a collaborative environment
+              where I can continue to learn and grow as a developer.
             </p>
-            <a href="#" class="btn btn-light mt-3"
-              ><i class="bi bi-chevron-right"></i>My Resume</a
-            >
+            <a href="#" class="btn btn-primary btn-lg mt-4">
+              <i class="bi bi-file-earmark-text"></i> My Resume
+            </a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- Divider Section -->
+    <section class="py-4 bg-light">
+      <div class="container">
+        <hr class="my-4" />
       </div>
     </section>
 
     <!-- PORTFOLIO -->
     <section id="projects" class="py-5 bg-light">
       <div class="container">
-        <h2>My Projects</h2>
-        <div class="row">
+        <h2 class="text-center mb-5">My Projects</h2>
+        <div class="row text-center pb-5">
           <div class="col-md-4">
-            <div class="card">
+            <a href="#" class="card text-decoration-none text-dark">
               <img
                 src="img/showcase.svg"
                 class="card-img-top"
@@ -141,38 +155,74 @@
                   A responsive e-commerce website built with Bootstrap, HTML,
                   and CSS.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-4">
-            <div class="card">
-              <img src="project2.jpg" class="card-img-top" alt="Project 2" />
+            <a href="#" class="card text-decoration-none text-dark">
+              <img
+                src="img/showcase.svg"
+                class="card-img-top"
+                alt="Project 2"
+              />
               <div class="card-body">
                 <h5 class="card-title">Project 2</h5>
                 <p class="card-text">
                   A custom web application built using React.js and Node.js.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
               </div>
-            </div>
+            </a>
           </div>
           <div class="col-md-4">
-            <div class="card">
-              <img src="project3.jpg" class="card-img-top" alt="Project 3" />
+            <a href="#" class="card text-decoration-none text-dark">
+              <img
+                src="img/showcase.svg"
+                class="card-img-top"
+                alt="Project 3"
+              />
               <div class="card-body">
                 <h5 class="card-title">Project 3</h5>
                 <p class="card-text">
                   A responsive portfolio website using Bootstrap and modern web
                   techniques.
                 </p>
-                <a href="#" class="btn btn-primary">View Project</a>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
     </section>
+
+        <!-- CONTACT -->
+    <section id="contact" class="py-5 bg-dark">
+      <div class="container text-center text-light">
+        <h2 class="mb-4">Contact Me</h2>
+        <p class="mb-4">Feel free to reach out via email or connect with me on social media!</p>
+        
+        <div class="mb-3">
+          <p class="lead">
+            <a href="mailto:shelbyclarice@gmail.com" class="text-light text-decoration-none">shelbyclarice@gmail.com</a>
+          </p>
+        </div>
+    
+        <div class="mb-4">
+          <a href="https://www.linkedin.com/in/shelby-cochrane" class="text-decoration-none text-light me-3 lead" target="_blank">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="https://github.com/shelbyclarice" class="text-decoration-none text-light me-3 lead" target="_blank">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://behance.com/yourprofile" class="text-light lead" target="_blank">
+            <i class="fab fa-behance"></i>
+          </a>
+        </div>
+    
+        <footer class="mt-5">
+          <p class="text-muted">&copy; Shelby Cochrane 2024</p>
+        </footer>
+      </div>
+    </section>
+    
 
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>
